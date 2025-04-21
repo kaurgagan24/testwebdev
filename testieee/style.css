@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+header {
+    background: #fff;
+    padding: 10px 50px;  
+    position: fixed;
+    width: 100%;
+
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links li a.active, 
+.nav-links li a:hover {
+    color: #414a46;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    background: linear-gradient(to right, #b2b8b5 50%, #908c8c 50%);
+    height: 100vh;
+}
+
+.content {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: #1d1a1a;
+    font-weight: bold;
+    font-size: larger;
+}
+
+p {
+    margin: 15px 0;
+    color: #0b0909;
+    font-size: larger;
+}
+
+.btn {
+    display: inline-block;
+    background: #060707;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.image {
+    display: flex;
+    justify-content: flex-end; 
+    padding: 40px;
+}
+
+.image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+}
+about-section {
+    padding: 60px 30px;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .text {
+    max-width: 600px;
+  }
+  
+  .text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
